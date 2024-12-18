@@ -1,0 +1,93 @@
+.chartComponent{
+    position: relative;
+    height: 100vh;
+    top: 0vh;
+}
+
+.chartComponent .chartWrapper{
+    position: absolute;
+    left: 19%;
+    height: 45%;
+    top: 20%;
+    width: 42%;
+    border-bottom: 2px solid grey;
+}
+
+.chartComponent .stockLeftBox{
+    position: absolute;
+    width: 28%;
+    height: 65%;
+    left: 65%;
+    top: 10%;
+    border: 2px solid rgb(4, 173, 131);
+    border-radius: 10px;
+}
+
+.chartComponent .stockLeftBox .stockName{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    color: #00664d;
+    font-size: 300%;
+    font-family: "Varela Round", sans-serif;
+}
+
+.chartComponent .stockLeftBox .priceforyear{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.chartComponent .stockLeftBox .priceforyear input{
+    position: relative;
+    width: 25%;
+    left: 2.5%;
+    top: -0.5vh;
+    height: 30px;
+    outline: none;
+    font-size: 80%;
+    border: none;
+    color: #018a68;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgb(1, 138, 104);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chartComponent .stockLeftBox .priceforyear button{
+    position: absolute;
+    left: 28%;
+    top: 80%;
+    width: 40%;
+    height: 80%;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 110%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #04ad83;
+    cursor: pointer;
+    transition: 40ms;
+}
+
+.chartComponent .stockLeftBox .priceforyear button p{
+    margin: 0;
+}
+
+.chartComponent .stockLeftBox .priceforyear button:hover{
+    background-color: #00e6ac;
+}
+
+.chartComponent .stockLeftBox .priceforyear .predictedValue{
+    position: relative;
+    height: 2vh;
+    top: 10vh;
+    color: #018a68;
+}
+
+.chartComponent .stockLeftBox .priceforyear .predictedValue p{
+    position: absolute;
+    top: 10%;
+}
